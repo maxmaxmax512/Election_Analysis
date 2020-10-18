@@ -8,17 +8,17 @@ The Election Commission has contracted with our firm to review all votes and val
 By auditing this data accurately, our firm can help ensure that the election was a fair democratic process and that the outcomes are an accurate representation of the voter's intent.
 
 ## Election Audit Results
-Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+The following elements represent a final audited and verified summary of the election results.
 
 * How many votes were cast in this congressional election?
   * Total Votes: 369,711 
-* Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+* What were the total number of votes and the percentage of total votes for each county in the precinct?
   * Jefferson: 10.5% (38,855)
   * Denver: 82.8% (306,055)
   * Arapahoe: 6.7% (24,801)
 * Which county had the largest number of votes?
-  * Denver county had the largest number of votes by a margin of 267,200.
-* Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+  * Denver county had the largest number of votes (306,055) by a margin of 267,200.
+* What were the total number of votes and the percentage of the total votes each candidate received?
   * Charles Casper Stockham: 23.0% (85,213)
   * Diana DeGette: 73.8% (272,892)
   * Raymon Anthony Doane: 3.1% (11,606)
@@ -43,5 +43,3 @@ file_to_load = os.path.join("Resources", file_name)
 # Assign a variable to save the file to a path.
 file_to_save = os.path.join("Resources", "election_results.txt")
 ```
-
-There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
